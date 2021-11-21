@@ -2,9 +2,7 @@ import config.UsersConfigReader;
 
 import java.io.Console;
 import java.io.FileNotFoundException;
-import java.util.Base64;
 import java.util.Map;
-import java.util.Scanner;
 
 public class Main {
 
