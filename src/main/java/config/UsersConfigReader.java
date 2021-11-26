@@ -9,7 +9,7 @@ import java.io.FileReader;
 
 public class UsersConfigReader {
 
-    public static UsersConfig readConfig() throws FileNotFoundException {
+    public static UsersConfig readConfig() {
         Yaml yaml = new Yaml(new Constructor(UsersConfig.class));
         return yaml.load(UsersConfigReader.class.getResourceAsStream("/users.yaml"));
     }
