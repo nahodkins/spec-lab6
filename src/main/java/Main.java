@@ -5,6 +5,7 @@ public class Main {
             System.err.println("Wrong number of arguments");
         } else {
             ZipExtractor.extractFilesFromZip(args[0]);
+            System.out.println("Archive was extracted successfully!");
         }
     }
 }
